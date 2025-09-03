@@ -1,4 +1,4 @@
-package Code.TeleOp; // Make sure this matches your package name
+package Code.TeleOp;
 
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
@@ -8,7 +8,7 @@ public class GamepadTester extends OpMode {
 
     @Override
     public void init() {
-        telemetry.addLine("--- Gamepad 1 Tester ---");
+        telemetry.addLine("--- DEBUG: Gamepad 1 Tester Initialized ---");
         telemetry.update();
     }
 

@@ -46,8 +46,8 @@ public class Nurse extends OpMode {
         BL.setZeroPowerBehavior(BRAKE);
 
         // --- TELEMETRY ---
-        telemetry.addLine("--- Nurse Diagnostic Ready ---");
-        telemetry.addLine("Hold Y,X,B,A to select a motor.");
+        telemetry.addLine("--- DEBUG: Nurse Diagnostic Initialized ---");
+        telemetry.addLine("Hold Y, X, B, A to select a motor.");
         telemetry.addLine("Use Triggers to run forward/backward.");
         telemetry.update();
     }
